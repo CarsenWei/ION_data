@@ -6,4 +6,4 @@ Through previous hardware and software investments made by the University, UDL i
 
 The InfluxDB can be accessed using [command line interface](https://docs.influxdata.com/influxdb/v1.7/tools/shell/) or [client libraries](https://docs.influxdata.com/influxdb/v1.7/tools/api_client_libraries/). The Python notebook `ION influxdb-python Tutorial.ipynb` is a tutorial for accessing and visualizing the data in Python 3.
 
-A Grafana visulization is available [here](https://udl.grafana.net/d/eDDp5YBZk/ion?orgId=1&from=1576705812170&to=1576878612170&panelId=2&fullscreen) with username `udl` and password `udl2020` for public log-ins. Users can click on “Panel Title” and choose “Edit”, which allows them to edit the SQL query and select a time range for the data. 
+A Grafana visulization is available [here](https://udl.grafana.net/d/eDDp5YBZk/ion?orgId=1&from=1576705812170&to=1576878612170&panelId=2&fullscreen). Users can click on “Panel Title” and choose “Edit”, which allows them to edit the SQL query and select a time range for the data. 
