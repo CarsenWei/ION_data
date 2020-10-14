@@ -12,10 +12,10 @@ Currently, every building has `elec_energy` and `elec_power` data streams, but n
 - `elec_energy` kWh
 - `elec_power` kW
 - `water_volume` cubic meter
-- `gas_volume` cubic foot, cubic meter, or GJ (refer to the image below). The data in the ION database is **not converted**, so the unit is ft3 if the imae indicates "ft3 => m3".
+- `gas_volume` cubic foot, cubic meter, or GJ (refer to the image below). The data in the ION database is **not converted**, so the unit is ft3 if the image indicates "ft3 => m3".
 
 <p align="center">
-  <img src="https://github.com/UBC-UrbanDataLab/ION_data/blob/master/images/Gas_unit.png">
+  <img width="500" height="400" src="https://github.com/UBC-UrbanDataLab/ION_data/blob/master/images/Gas_unit.png">
 </p>
 
 
