@@ -1,8 +1,6 @@
-# ION_data
-The Urban Data Lab (UDL) provides UBC researchers and operational staff with access to live streaming data on power, energy, water, and gas use of UBC buildings.
-
 ## About the Data
-Through previous hardware and software investments made by the University, UDL has gained access to 5-second power, energy, water, and gas use data. In UDL's ION database (Influx database), the data is only updated with **every 2 kW change in the electricity power values** but the trigger threshold can be modified in the best interest of researchers and operational staff.
+
+The ION database is managed by UBC Energy and Water Services (EWS), which collects data every 5 seconds on electricity (power and energy), hot water, and gas use in campus buildings. In UDL's ION database (Influx database), the data is only updated with **every 2 kW change in the electricity power values** but the trigger threshold can be modified in the best interest of researchers and operational staff.
 
 <p align="center">
   <img width="500" height="350" src="https://github.com/UBC-UrbanDataLab/ION_data/blob/master/images/ION_structure.png">
@@ -18,7 +16,15 @@ Currently, every building has `elec_energy` and `elec_power` data streams, but n
   <img width="500" height="400" src="https://github.com/UBC-UrbanDataLab/ION_data/blob/master/images/Gas_unit.png">
 </p>
 
+## InfluxDB 2.0 Instance
+Public users (read permissions only) can log in to our [**InfluxDB 2.0 User Interface**](http://206.12.92.81:8086/) with the following credentials
+- Username:`public02`
+- Password:`public02`
 
-The InfluxDB can be accessed using [command line interface](https://docs.influxdata.com/influxdb/v1.7/tools/shell/) or [client libraries](https://docs.influxdata.com/influxdb/v1.7/tools/api_client_libraries/). The Python notebook `ION influxdb-python Tutorial.ipynb` is a tutorial for accessing and visualizing the data in Python 3.
+Public users can also access this InfluxDB instance from [InfluxDB command line interface](https://docs.influxdata.com/influxdb/v2.0/) or [InfluxDB API client libraries](https://docs.influxdata.com/influxdb/v2.0/tools/client-libraries/) using this authorization token `omUybYZ3QkGvuXXy0VwT-7hoO2SEFzhckXJ5k32K_GvG47yHQAi9JzZ1bii6r1HD5NKux3ZhHlKAyUfj6i61bA==` 
 
-A Grafana visulization is available [here](https://udl.grafana.net/d/eDDp5YBZk/ion?orgId=1&from=1576705812170&to=1576878612170&panelId=2&fullscreen). Users can click on “Panel Title” and choose “Edit”, which allows them to edit the SQL query and select a time range for the data. 
+<p align="center">
+  <img width="900" src="https://github.com/UBC-UrbanDataLab/SkySpark_data/blob/master/images/InfluxDB_UI_Example.PNG">
+</p>
+
+[The Python tutorial](https://github.com/UBC-UrbanDataLab/ION_data/blob/master/ION%20InfluxDB%202.0%20Tutorial.ipynb) demonstrates querying the InfluxDB database using the `influxdb-client` Python module. Please [contact UDL](https://urbandatalab.io/) if you have any questions.
