@@ -21,10 +21,10 @@ Public users (read permissions only) can log in to our [**InfluxDB 2.0 User Inte
 - Username:`public02`
 - Password:`public02`
 
-Public users can also access this InfluxDB instance from [InfluxDB command line interface](https://docs.influxdata.com/influxdb/v2.0/) or [InfluxDB API client libraries](https://docs.influxdata.com/influxdb/v2.0/tools/client-libraries/) using this authorization token `omUybYZ3QkGvuXXy0VwT-7hoO2SEFzhckXJ5k32K_GvG47yHQAi9JzZ1bii6r1HD5NKux3ZhHlKAyUfj6i61bA==` 
-
 <p align="center">
   <img width="900" src="https://github.com/UBC-UrbanDataLab/SkySpark_data/blob/master/images/InfluxDB_UI_Example.PNG">
 </p>
+
+Public users can also access this InfluxDB instance from [InfluxDB command line interface](https://docs.influxdata.com/influxdb/v2.0/) or [InfluxDB API client libraries](https://docs.influxdata.com/influxdb/v2.0/tools/client-libraries/) using this authorization token `omUybYZ3QkGvuXXy0VwT-7hoO2SEFzhckXJ5k32K_GvG47yHQAi9JzZ1bii6r1HD5NKux3ZhHlKAyUfj6i61bA==` 
 
 [The Python tutorial](https://github.com/UBC-UrbanDataLab/ION_data/blob/master/ION%20InfluxDB%202.0%20Tutorial.ipynb) demonstrates querying the InfluxDB database using the `influxdb-client` Python module. Please [contact UDL](https://urbandatalab.io/) if you have any questions.
