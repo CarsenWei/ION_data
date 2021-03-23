@@ -22,7 +22,7 @@ Public users (read permissions only) can log in to our [**InfluxDB 2.0 User Inte
 - Password:`public02`
 
 <p align="center">
-  <img width="900" src="https://github.com/UBC-UrbanDataLab/SkySpark_data/blob/master/images/InfluxDB_UI_Example.PNG">
+  <img width="900" src="https://github.com/UBC-UrbanDataLab/ION_data/blob/master/images/ION_UI_Example.JPG">
 </p>
 
 Public users can also access this InfluxDB instance from [InfluxDB command line interface](https://docs.influxdata.com/influxdb/v2.0/) or [InfluxDB API client libraries](https://docs.influxdata.com/influxdb/v2.0/tools/client-libraries/) using this authorization token `omUybYZ3QkGvuXXy0VwT-7hoO2SEFzhckXJ5k32K_GvG47yHQAi9JzZ1bii6r1HD5NKux3ZhHlKAyUfj6i61bA==` 
